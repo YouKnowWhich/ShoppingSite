@@ -1,0 +1,43 @@
+#contents {
+	margin:80px auto;
+	text-align: center;
+	width: 80%;
+}
+
+h2,
+.login_message {
+	color:#182b45;
+}
+.login_message {
+	margin-bottom: 80px;
+}
+
+form {
+	position: relative;
+	z-index: 1;
+	background: #FFFFFF;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.14);
+  }
+
+form input[type=text],
+form input[type=password] {
+	font-family: "Roboto", sans-serif;
+	outline: 0;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 20px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+	border-radius: 3px;
+}
+
+.error_message {
+	margin-bottom: 20px;
+}

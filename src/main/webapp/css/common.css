@@ -1,0 +1,122 @@
+* {
+	font-family: Meiryo;
+}
+
+body {
+	background: #f2f6f9;
+	margin: 0;
+	padding: 0;
+}
+
+/*ヘッダー*/
+div#head {
+	margin: 0;
+	display: flex;
+	justify-content: flex-end;
+	height: 62px;
+	background: #182b45;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	color: #fff;
+}
+
+/*ログアウト*/
+.welcom_message {
+	display: block;
+	line-height: 62px;
+	padding: 0 15px;
+}
+a#logout {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	box-sizing: border-box;
+	height: 100%;
+	padding: 10px 15px;
+	border-left: rgba(255,255,255,0.2) 1px solid;
+	margin : 0;
+	font-size: 0.5rem;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+a#logout:hover {
+	background: rgba(255, 255, 255, 0.15);
+}
+a#logout img {
+	margin: auto;
+	display: block;
+	padding:0 0 2px 0;
+}
+
+/*ボタン*/
+a.common_button,
+input.common_button {
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1.5;
+	display: inline-block;
+	padding: 10px 50px;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+	border-radius: 2rem;
+	border:0 solid;
+	color: #fff;
+	background-color: #277dd9;
+	margin: 10px 0;
+}
+a.common_button:hover,
+input.common_button:hover {
+  color: #fff;
+  background: #399fe4;
+}
+
+a.common_button.payment,
+input.common_button.payment {
+	background-color: rgb(255, 128, 0);
+}
+a.common_button.payment:hover,
+input.common_button.payment:hover {
+  background: rgb(255, 192, 0);
+}
+
+a.common_button.disabled,
+input.common_button.disabled {
+	background-color: rgb(192, 192, 192);
+}
+
+/*選択リスト*/
+label.list {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+label.list::after {
+    position: absolute;
+    right: 15px;
+    width: 10px;
+    height: 7px;
+    background-color: #535353;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    content: '';
+    pointer-events: none;
+}
+label.list select {
+    appearance: none;
+    min-width: 120px;
+    height: 2.8em;
+    padding: .4em calc(.8em + 30px) .4em .8em;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #333333;
+    font-size: 1em;
+    cursor: pointer;
+}
