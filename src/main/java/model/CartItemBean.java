@@ -1,8 +1,6 @@
 package model;
 /**
  * カート内商品クラス
- * @author k-yoneda
- *
  */
 public class CartItemBean extends ItemBean {
 	

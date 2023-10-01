@@ -6,8 +6,6 @@ import java.util.Iterator;
 
 /**
  * 買い物かごクラス
- * @author k-yoneda
- *
  */
 public class ShoppingCartBean implements Serializable {
 	

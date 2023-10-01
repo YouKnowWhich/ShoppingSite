@@ -8,8 +8,6 @@ import dao.UserDao;
 
 /**
  * ログインチェックを行うクラス
- * @author k-yoneda
- *
  */
 
 public class LoginCheck {
